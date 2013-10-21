@@ -1,7 +1,7 @@
 #menuBar {
     float: left;
-    width : 20%;
-    height : 40%;
+    width : 20px;
+    height : 200px;
     background-color: #313131;
     border: dimgray;
     box-shadow: 0 0 7px 0 rgba(50,50,50,.45);
@@ -20,20 +20,26 @@ body{
 }
 
 .recommendList{
-    float: left;
+    list-style: none;
+    display: inline-table;
+
 }
 .hotList{
+    list-style: none;
     float: left;
 }
 .newList{
+    list-style: none;
     float: left;
 }
 
 .introduce{
+    list-style: none;
     float: left;
 }
 
 .snsbutton{
+    list-style: none;
     float: left;
 }
 
@@ -41,6 +47,7 @@ body{
 
 
 #recommendBar {
+    overflow: auto;
     margin-top: 5px;
     background: darkslategray;
     float: left;
@@ -68,6 +75,7 @@ body{
 }
 
 .footer {
+    list-style: none;
     clear: both;
     padding: 50px;
     color :green;
