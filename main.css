@@ -1,10 +1,75 @@
-
-body{
-    font-size: 24px;
-    font-family: sans-serif ;
+#menuBar {
+    float: left;
+    width : 20%;
+    height : 40%;
+    background-color: #313131;
+    border: dimgray;
+    box-shadow: 0 0 7px 0 rgba(50,50,50,.45);
+    z-index: 2;
+    width: 136px;
+    position: fixed;
+    left: 15px;
+    top: 15px;
 }
 
+
+body{
+    font-size: 14px;
+    font-family: sans-serif ;
+    margin-left: 200px;
+}
+
+.recommendList{
+    float: left;
+}
+.hotList{
+    float: left;
+}
+.newList{
+    float: left;
+}
+
+.introduce{
+    float: left;
+}
+
+.snsbutton{
+    float: left;
+}
+
+
+
+
 #recommendBar {
+    margin-top: 5px;
+    background: darkslategray;
+    float: left;
+    width : 95%;
+    border: 10px solid darkred;
+    color :green;
+}
+
+#hot {
+    margin-top: 5px;
+    background: darkcyan;
+    float: left;
+    width : 95%;
+    border: 10px solid darkred;
+    color :green;
+}
+
+#newSongs {
+    margin-top: 5px;
+    background: darkkhaki;
+    float: left;
+    width : 95%;
+    border: 10px solid darkred;
+    color :green;
+}
+
+.footer {
+    clear: both;
+    padding: 50px;
     color :green;
 }
 
@@ -16,14 +81,4 @@ span {
     font-size: 14px;
     color : white;
 }
-#menuBar {
-    background-color: #313131;
-    box-shadow: 0 0 7px 0 rgba(50,50,50,.45);
-    z-index: 2;
-    width: 136px;
-    position: fixed;
-    left: 15px;
-    top: 15px;
-}
-
 
